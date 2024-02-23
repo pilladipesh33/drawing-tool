@@ -19,13 +19,9 @@
 
   .container1,
   .container2 {
+    padding: 5px;
     cursor: pointer;
     border-radius: 5px;
-    // box-shadow: 0 5px 5px 0 #888888;
-    padding: 20px;
-    border: 1px solid #000;
-    transform: translate3d(-4px, -4px, 0);
-    transition: transform 0.3s cubic-bezier(0.7, 0, 0.2, 1);
   }
 }
 
