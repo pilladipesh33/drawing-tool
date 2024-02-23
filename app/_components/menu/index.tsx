@@ -8,9 +8,6 @@ import { Stroke } from './strokes';
 export const MenuContainer = () => {
   return (
     <div className={styles.screenContainer}>
-      <div>
-        <h1 className={styles.heading}>Menu Container</h1>
-      </div>
       <div className={styles.toolContainer}>
         <button className={cn(styles.button, styles.buttonPandora)}>
           <span>
