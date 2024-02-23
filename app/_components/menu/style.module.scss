@@ -1,0 +1,85 @@
+.screenContainer {
+  height: 100%;
+  width: 100%;
+  margin: 20px;
+  margin-top: 10px;
+}
+
+.heading {
+  font-size: 2vw;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.toolContainer {
+  display: grid;
+  grid-template-columns: 100%;
+  gap: 2vh;
+
+  .container1,
+  .container2 {
+    cursor: pointer;
+    border-radius: 5px;
+    // box-shadow: 0 5px 5px 0 #888888;
+    padding: 20px;
+    border: 1px solid #000;
+    transform: translate3d(-4px, -4px, 0);
+    transition: transform 0.3s cubic-bezier(0.7, 0, 0.2, 1);
+  }
+}
+
+.button {
+  pointer-events: auto;
+  cursor: pointer;
+  background: #e7e7e7;
+  border: none;
+  padding: 1.5rem 3rem;
+  margin: 0;
+  position: relative;
+  display: inline-block;
+}
+
+.buttonPandora {
+  height: 30dvh;
+  background: #000;
+  font-weight: 700;
+  padding: 0;
+  border-radius: 5px;
+}
+
+.buttonPandora span {
+  height: 30dvh;
+  display: block;
+  padding: 1.5rem 2rem;
+  border: 1px solid #000;
+  border-radius: 5px;
+  transform: translate3d(-4px, -4px, 0);
+  transition: transform 0.3s cubic-bezier(0.7, 0, 0.2, 1);
+}
+
+.buttonPandora:hover span {
+  transform: translate3d(-8px, -8px, 0);
+}
+
+.buttonPandora2 {
+  height: 50dvh;
+  background: #000;
+  font-weight: 700;
+  padding: 0;
+  border-radius: 5px;
+}
+
+.buttonPandora2 span {
+  height: 50dvh;
+  display: block;
+  padding: 1.5rem 2rem;
+  border: 1px solid #000;
+  border-radius: 5px;
+  transform: translate3d(-4px, -4px, 0);
+  transition: transform 0.3s cubic-bezier(0.7, 0, 0.2, 1);
+}
+
+.buttonPandora2:hover span {
+  transform: translate3d(-8px, -8px, 0);
+}

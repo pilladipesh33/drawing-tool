@@ -17,13 +17,9 @@ main {
   height: 100%; /* Ensure full height even with flexbox */
 }
 
-.container-1 {
-  background-color: aqua;
-}
-
-.container-2 {
-  background-color: blueviolet;
-}
+// .container-2 {
+//   background-color: blueviolet;
+// }
 
 /* Media queries for responsiveness */
 @media (max-width: 768px) {

@@ -7,7 +7,9 @@ export default function Page() {
   return (
     <main>
       <div className='grid-container'>
-        <div className='container-1'>Container 1</div>
+        <div className='container-1'>
+          <MenuContainer />
+        </div>
         <div className='container-2'>Container 2</div>
       </div>
     </main>
